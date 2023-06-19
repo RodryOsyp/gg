@@ -1,0 +1,50 @@
+.circle0 {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 800;
+}
+
+.plus {
+  width: 385px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  width: 300px;
+  height: 40px;
+  background-color: #fc7613;
+  color: aliceblue;
+  border-radius: 20px;
+}
+.square:hover {
+  background-color: #7b8996; /* Цвет при наведении курсора */
+  color: black;
+  cursor: pointer;  
+}
+
+.circle {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  color: #7e8790;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #252e37;
+}
+.circle:hover {
+  background-color: #7b8996; /* Цвет при наведении курсора */
+  color: black;
+  cursor: pointer;
+}
+.element:active {
+  background-color: #fc770e; /* Цвет при нажатии */
+  cursor: pointer;
+}
