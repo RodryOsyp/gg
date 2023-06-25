@@ -1,37 +1,50 @@
 .square{
-  display: flex;
-  padding: 25px 25px;
-  flex-direction: column;
-  border-radius: 20px;
-  width: 400px;
-  height: 350px;
-  justify-content: center;
-  align-items: center;
-  background-color: #212832;
-}
-.img{
-    width: 180px;
     display: flex;
-    height: 180px;
-}
-.box{
-    margin-bottom: 30px;
-    display: flex;
-    width: 410px;
-    height: 150px;
+    padding: 25px 25px;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 400px;
+    height: 350px;
     justify-content: center;
     align-items: center;
-}
-.text{
-    display: flex;
-    font-weight: 700;
-    color: aliceblue;
-    font-size: 25px;
-}
-.text2{
-    display: flex;
-    font-weight: 600;
-    color: #6F7680;
-    justify-content: center;
-    align-items: center;
-}
+    background-color: #212832;
+  }
+  .img{
+      width: 180px;
+      display: flex;
+      height: 180px;
+  }
+  .box{
+      margin-bottom: 30px;
+      display: flex;
+      width: 410px;
+      height: 150px;
+      justify-content: center;
+      align-items: center;
+  }
+  .text{
+      display: flex;
+      font-weight: 700;
+      color: aliceblue;
+      font-size: 25px;
+  }
+  .text2{
+      display: flex;
+      font-weight: 600;
+      color: #6F7680;
+      justify-content: center;
+      align-items: center;
+  }
+  .raiting{
+      display: flex;
+      background-color: #484b4f;
+      width: 170px;
+      height: 30px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 30px;
+  }
+  .text3{
+      display: flex;
+      color: #fc7613;
+  }

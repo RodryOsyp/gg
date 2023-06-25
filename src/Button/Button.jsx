@@ -11,26 +11,26 @@ const Button = () => {
 
   return (
     <>
-    <div className={style.circle0}>
-      {[1, 2, 3, 4, 5].map((buttonNumber) => (
-        <div
-          key={buttonNumber}
-          className={style.circle}
-          style={{
-            backgroundColor: selectedButton === buttonNumber ? "#FC770E" : "",
-          }}
-          onClick={() => handleClick(buttonNumber)}
-        >
-          {buttonNumber}
-        </div>
-      ))}
-    </div>
+      <div className={style.circle0}>
+        {[1, 2, 3, 4, 5].map((buttonNumber) => (
+          <div
+            key={buttonNumber}
+            className={style.circle}
+            style={{
+              backgroundColor: selectedButton === buttonNumber ? "#FC770E" : "",
+            }}
+            onClick={() => handleClick(buttonNumber)}
+          >
+            {buttonNumber}
+          </div>
+        ))}
+      </div>
 
-    <div className={style.plus}>
-      <Link to="/Thank">
-      <div className={style.square}>
-          <div className={style.submit}>SUBMIT</div>
-        </div>
+      <div className={style.plus}>
+        <Link to={selectedButton ? `/Thank?id=${selectedButton}` : "/Thank"}>
+          <div className={style.square}>
+            <div className={style.submit}>SUBMIT</div>
+          </div>
         </Link>
       </div>
     </>
